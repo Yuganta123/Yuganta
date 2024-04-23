@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	box-shadow: 3px 3px 10px rebeccapurple;
+	border-top: 5px solid #009578;
+	border-bottom: 5px solid rebeccapurple;
+}
+
+.todo {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+}
+
+.todo__value {
+	background: transparent;
+	border: none;
+	outline: none;
+    font-family: cursive;
+	font-size: 1em;
+	font-weight: bolder;
+	flex-grow: 1;
+}
